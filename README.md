@@ -14,9 +14,8 @@ Summary: Pyflakes analyzes programs and detects various errors.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pyflakes-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pyflakes-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pyflakes-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pyflakes-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pyflakes-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pyflakes-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyflakes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyflakes-feedstock)
 
 Current release info
 ====================
