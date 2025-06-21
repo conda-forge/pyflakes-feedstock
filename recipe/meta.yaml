@@ -1,5 +1,5 @@
 {% set name = "pyflakes" %}
-{% set version = "3.3.2" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6dfd61d87b97fba5dcfaaf781171ac16be16453be6d816147989e7f6e6a9576b
+  sha256: b24f96fafb7d2ab0ec5075b7350b3d2d2218eab42003821c06344973d3ea2f58
 
 build:
   number: 0
