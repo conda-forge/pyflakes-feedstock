@@ -1,13 +1,13 @@
 {% set name = "pyflakes" %}
-{% set version = "3.4.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b24f96fafb7d2ab0ec5075b7350b3d2d2218eab42003821c06344973d3ea2f58
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 492b27735181e3d4a6acfc08738948b666bf3e696781854ea6e0d8540d566d52
 
 build:
   number: 0
