@@ -1,5 +1,5 @@
 {% set name = "pyflakes" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 492b27735181e3d4a6acfc08738948b666bf3e696781854ea6e0d8540d566d52
+  sha256: cb4e721195b96e1792f3dfaefa02fb36a4f6253e899bbe0793f8aef6ed0065ef
 
 build:
   number: 0
